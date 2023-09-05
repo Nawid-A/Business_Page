@@ -1,0 +1,144 @@
+html, body{ 
+    color: white; 
+    font-family: Roboto, sans-serif;  
+    display: flex; 
+    flex-direction: column;   
+
+}        
+.chunk{ 
+    padding: 15px 200px 90px; 
+    background-color:  #1f2937;   
+    display: flex; 
+    flex-direction: column;
+    gap: 90px;
+}
+.one{  
+    display: flex; 
+    justify-content: space-between;
+    background-color: #1f2937; 
+}  
+.options{ 
+    display: flex; 
+    gap: 20px;
+} 
+.two{ 
+    background-color: #1f2937; 
+    display:flex; 
+    justify-content: center; 
+    gap: 60px; 
+} 
+ 
+img{ 
+    width: 600px; 
+    height: auto;
+} 
+ 
+.header{ 
+    font-size: 24px; 
+    font-weight: 700;
+}  
+ 
+.options{ 
+    font-size: 18px; 
+    color: #e5e7eb;
+} 
+.info{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items:flex-start; 
+    gap: 20px;
+} 
+.big{ 
+    font-size: 48px; 
+    color: white;  
+    font-weight: 800;
+} 
+.small{ 
+    font-size: 18px; 
+    color: #e5e7eb; 
+} 
+button{ 
+    background-color:#3882f6; 
+    color: white; 
+    border-radius: 25px; 
+    font-size: 18px; 
+    width: 100px;  
+    border: none;
+}  
+ 
+.chunktwo{ 
+    display: flex; 
+    flex-direction: column;  
+    align-items: center; 
+    gap: 50px; 
+    padding: 50px 200px 100px;
+} 
+ 
+.three{ 
+    color: #1f2937; 
+    font-weight: 800; 
+    font-size: 36px; 
+}  
+
+.four{ 
+    display: flex; 
+    justify-content: space-between;  
+    gap: 50px;
+} 
+.box{ 
+    display:flex; 
+    flex-direction: column;  
+    align-items: center; 
+    gap: 10px;
+} 
+.window{ 
+    border-radius: 25px; 
+    border: 2px solid #3882f6;  
+    padding: 15px;
+    width: 200px; 
+    height: 200px;
+} 
+.text{ 
+    color: #1f2937; 
+    font-size: 18px;
+} 
+.five{   
+    background-color: #e5e7eb; 
+    display: flex; 
+    height: 500px; 
+    align-items: center;  
+    padding: 0px 300px;
+    
+} 
+.store{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: flex-end; 
+    color:#1f2937;
+} 
+.quote{ 
+    font-size: 36px;
+} 
+.author{ 
+    font-weight: 700; 
+    font-size: 18px;
+} 
+.six{  
+    height: 300px;
+    display:flex;  
+    justify-content: center; 
+    align-items: center;  
+} 
+.ad{ 
+    background-color: #3882f6; 
+    border-radius: 20px;   
+    padding: 20px;   
+    display:flex; 
+    justify-content: space-around; 
+    width: 70%;
+} 
+ 
+.ad button{ 
+    border: 2px solid white;
+}
